@@ -1,0 +1,214 @@
+/*
+Author :Sajeda Azem
+Template:ecommerce-star
+Version:1.0.0
+Theme Name:myStore
+Description:myStore child theme
+
+*/
+
+
+
+
+
+header{
+    margin-bottom: 70px;
+
+    
+    
+    
+    
+    
+    
+}
+.navbar-brand{
+    
+    padding:20px;
+    font-size: 25px;
+    color: black;
+    font-style:oblique;
+    
+    
+}
+
+li{
+   padding: 5px;
+    display: inline;
+  
+}
+
+li a{
+    color: #545050;
+    font-size: 18px;
+}
+li a:hover{
+    color: #ae5322;
+}
+
+#hero{
+    padding-bottom: 800px;
+    margin-bottom: 50px;
+    background:url('images/aaa.jpg') #f0f0f0;
+    background-size: cover;
+    border-bottom-color: white;
+    
+}
+#mega-menu-wrap-top-menu #mega-menu-top-menu > li.mega-menu-item > a.mega-menu-link{
+    margin-left: 30px;
+
+}
+
+.woocommerce ul.products li.last, .woocommerce-page ul.products li.last{
+    margin-bottom: 120px;
+}
+/* the button add to cart*/
+.woocommerce ul.products li.product .button{
+     background: #db7872;
+}
+
+.woocommerce .woocommerce-result-count{
+    
+    display: none;
+}
+/* search area */
+input[type="search"], .search-form .search-submit, .search-box, .widget_product_search .search-field, .widget_product_search button
+{
+    margin: 10px;
+    border-color: #545050; 
+   
+}
+/* search button */
+
+
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled){
+    background: #f0f0f0;
+}
+
+@media only screen and (max-width: 425px) {
+  .woocommerce ul.products li.product a img {
+    height: 100px;
+    width: 50%;
+    margin: 0 auto;
+    }}
+
+/* End Shop Page */
+
+
+
+
+/* Start Product Page*/
+
+/* Cart button */
+.woocommerce div.product form.cart .button{
+    background: #db7872;
+    
+}
+/* Submit button */
+.woocommerce #review_form #respond .form-submit input{
+     background: #db7872;
+}
+
+
+
+
+/*End Product Page */
+
+
+/*Start Cart page */
+
+
+/* Return to shop button */
+.woocommerce button.button.alt.disabled, .woocommerce a.add_to_cart_button, .woocommerce a.add_to_cart_button:focus, .woocommerce a.product_type_grouped, .woocommerce a.product_type_external, .woocommerce a.product_type_simple, .woocommerce a.product_type_variable, .woocommerce button.button.alt, .woocommerce a.button, .woocommerce button.button, .woocommerce a.button.alt, .woocommerce #respond input#submit, .woocommerce .widget_price_filter .price_slider_amount .button{
+    background: #db7872;
+    
+}
+
+.wc-backword{
+    background: red;
+}
+/*End Cart page */
+
+
+/*Start Checkout page*/
+
+   .woocommerce-input-wrapper{
+    display: block;
+       width: 100%;
+   
+}  
+    
+  form.woocommerce-checkout input[type="text"] {
+
+ border-radius: 3px;
+
+ background-color: #ccc;
+
+ color: #444;
+
+}
+
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea{
+      padding: .25rem;
+    background: #f0f0f0;
+    height: 30px;
+    border: 1px solid #999 !important;
+    border: 0;
+}
+
+
+/*Place order button */
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
+background:#db7872; 
+}
+
+/*End Chekout page */
+
+
+
+
+/*Start My Account page*/
+/* menu in left side*/
+.woocommerce-account .woocommerce-MyAccount-navigation{
+    width: 20%;
+}
+
+
+.woocommerce-account .woocommerce-MyAccount-content a{
+    color: #db7872;
+}
+
+
+
+
+/*End My Account page */
+
+
+
+
+
+
+/*Start Footer */
+
+footer{
+    width:100%;
+    height: 70px;
+  margin-top: 50px;
+   box-shadow:10px 10px 10px #dfdcdc;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+    background: #e7e0e0;
+    
+}
+#colophon .site-info{
+    margin-top: 10px;
+}
+.fa{
+    display: none;
+}
+
+
+
+
+
+/* End Footer*/
