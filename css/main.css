@@ -1,0 +1,336 @@
+
+
+/* Start footer*/
+
+.footer{
+    background-color: black;
+    bottom: 0px;
+    padding: 5px;
+position: fixed;
+    color: azure;
+    width: 100%;
+    margin-top: 100px;
+    height: 50px;
+   
+}
+/* End footer*/
+
+
+/*Start header*/
+.navbar-light{
+    margin-top: 5px;
+    height: 50px;
+    
+}
+
+/* Start Brand Name*/
+ .navbar-light .navbar-brand{
+   color: #900c3f;
+      font-size: 30px;
+      font-style: oblique;
+      line-height: normal;
+      
+      text-decoration-color: #900c3f;
+   padding-bottom: 1px;
+   
+    
+      
+}
+
+/* End Brand name */
+/*Start toggle button*/
+ .navbar-light .navbar-toggler{
+ background-color: white;
+  margin-right: 10px;
+     margin-top: 1px;
+     margin-bottom: 5px;
+     border-color: #900c3f;
+     
+    
+   
+    
+    
+}
+.navbar-light .navbar-toggler-icon{
+   color: #900c3f;
+    margin-top: 2px;
+    margin-bottom: 2px;
+ 
+}
+/*End toggle button */
+
+
+/*Start Navication bar items*/
+.navbar-collapse collapse show {
+    color: blue;
+   
+}
+li a{
+          color: #7e6363;
+     font-style: oblique;
+      line-height: normal;
+      text-decoration-color: #900c3f;
+     margin-left: 20px;
+     font-size: 20px;
+    
+     
+
+}
+
+
+.navbar-header .collapse navbar-collapse .dropdown-items li a:hover{
+    color: #900c3f;
+    
+ 
+}
+
+
+
+
+
+
+
+ 
+.dropdown-item:hover,
+.dropdown-item.active :hover, 
+.dropdown-item:active:hover{
+      color: #900c3f;
+   
+}
+.dropdown-item{
+    color: #796464;
+      
+    font-size: 18px;
+  background-color: white;
+    margin-left: 0px;
+  font-style: bold;
+   display: block;
+    
+}
+    
+}/*yes*/
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active :hover,
+.navbar-light .navbar-nav .nav-link:active:hover
+{
+    color: blue;
+    
+}
+/* yes dropdown items when i use mobile*/
+.navbar-nav .dropdown-menu{
+    width: 30px;
+ 
+}
+
+
+ 
+    
+/*yes*/
+ .navbar-light .navbar-nav .nav-link{
+    color: #796464;
+}
+/* yes */
+.navbar-light .navbar-nav .active>.nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active:hover, 
+.navbar-light .navbar-nav .nav-link.show:hover, 
+.navbar-light .navbar-nav .show>.nav-link:hover{
+    color:#900c3f;
+}
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link{
+    color:#796464;
+}
+
+/*yes*/
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+    background-color: white;
+    
+   
+}
+
+/*End dropdown items*/
+
+
+
+
+
+
+/* Start Search button*/
+.searchform input[type="text"]{
+background-color: white;
+    margin-top: 15px;
+    
+    
+}
+.screen-reader-text{
+    display: none;
+}
+.searchform input[type="submit"]{
+    color: #a58d8d;
+    background-color: white;
+    border-color: red;
+}
+
+/* End Search button*/
+
+/* End header*/
+
+
+/*Start main page*/
+
+.home-page{
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: #FCFAFA;
+ 
+}
+.home-page .main-post{
+   
+ 
+    margin-top:60px;
+    background-color: white;
+    margin-left: 5px;
+ 
+   
+}
+.the-title a{
+    color: black;
+    font-size: 15px;
+    
+}
+.img-fluid {
+    margin-left: 0px;
+}
+
+.new-style{
+    background-color: blue;
+    width: 500px;
+    margin: 30px;
+   
+}
+
+/*End main page*/
+
+
+
+
+
+/*Start single page*/
+.post-page .main-post{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    background-color: #FCF7F7 ;
+    
+    
+}
+
+.post-page .main-post .img-fluid{
+    width: 400px;
+}
+
+
+
+
+
+/* End single page*/
+
+/*Start comments page*/
+
+.list-unstyled{
+    margin-bottom: 100px;
+    font-size: 20px;
+   
+  
+}
+.comments-list{
+    margin-bottom: 10px;
+   
+}
+
+ .comments-list ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    
+   
+}
+.comments-list > .comment{
+   
+    margin-top: 7px;
+    border: 1px solid #FFF;
+     border-style:initial;
+     background-color: #FCF7F7 ;
+    margin-bottom: 5px;
+    border-radius: 17px;
+     border: 1px solid #dbc7c7;
+    padding: 10px 10px;
+   
+    
+}
+
+.comments-list > .comment > .children >.comment{
+    background-color: #FCF7F7 ;
+   
+    padding-left: 15px;
+    padding-top: 5px;
+}
+ .says{
+   
+    display: none;
+    
+}
+
+.comments-list li a{
+    font-size: 14px;
+    
+}
+.comments-list .fn a{ /* name who wrote the comment*/
+    font-size: 20px;
+  
+}
+.comment-meta a{ /* the data  of the comment*/
+    font-size: 14px;
+    
+}
+ p{ /* the comment*/
+    font-size: 18px;
+}
+.comment-respond{
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+.comment-reply-title{
+    color:#745c5c;
+    font-size: 22px;
+}
+.comment-respond a{
+    color: #926767;
+}
+.comment-respond a:hover{
+       color: #900c3f;
+    
+}
+.comment-respond label{
+    display: block;
+    color: #633d3d;
+    
+    
+}
+.comment-respond input[type="submit"]{
+    color: #900c3f;
+    padding: 7px;
+    border-radius: 5px;
+    border-color: #c59191;
+  
+}
+.comment-respond input[type="submit"]:active{
+    background-color: #c79494;
+}
+
+
+/*End comments page */
+
